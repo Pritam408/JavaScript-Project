@@ -1,0 +1,49 @@
+body{
+    background-color: #927df1;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 50px;
+}
+.top{
+   display: flex; 
+   align-items: center;
+   gap: 30px;
+}
+.arrow{
+    height: 200px;
+    cursor: pointer;
+    color: #fff;
+}
+.left{
+    transform: rotate(180deg);
+}
+.slider{
+    display: flex;
+}
+.frame{
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.buttom{
+    display: flex;
+    gap: 30px
+}
+.button{
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 1px solid white;
+    }
